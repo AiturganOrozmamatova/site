@@ -46,7 +46,7 @@
     padding: 2em;
 }
 .description h3{
-    color:#FFFAFA ;
+    color:#FFE4E1 ;
     font-style: oblique;
     margin-bottom: 80px;
     font-size: 300%;
@@ -107,11 +107,38 @@
     position: relative; 
 }
 .portfolio h1{
- color:#F97300;
+ color:#4B0082;
  margin: 2em; 
 }
 .portfolio img{
   height: 20rem;
   width: 100%;
   margin: 1em;
+}
+.team{
+ margin: 4em 0;
+ position: relative;  
+}
+.team h1{
+ color:#4B0082;
+ margin: 2em; 
+}
+.team .item{
+ position: relative;
+}
+.team .des{
+ background: #4B0082;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ transition:.3s ease-in-out;
+}
+.team .item:hover .des{
+ height: 100%;
+ background:#BA55D3;
+ position: absolute;
+ width: 89%;
+ padding: 5em;
+ top: 0;
+ border-bottom-left-radius: 0;
 }
