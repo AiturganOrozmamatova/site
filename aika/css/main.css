@@ -37,7 +37,7 @@
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.79);
+    background: rgba(0, 0, 0, 0);
 }
 .description{
     position: absolute;
@@ -69,7 +69,7 @@
     margin-bottom: 50px;
 }
 .about{
-    margin: 4em 0;
+    margin: 4sem 0;
     padding: 1em;
     position: relative;
 }
@@ -79,7 +79,7 @@
 }
 .about img{
     height: 100%;
-    width: 100%;
+    width: 60%;
     border-radius: 50%
 }
 .about span{
@@ -102,4 +102,16 @@
 .row{
     display: inline-block;
 }
-
+.portfolio{
+ margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1{
+ color:#F97300;
+ margin: 2em; 
+}
+.portfolio img{
+  height: 20rem;
+  width: 100%;
+  margin: 1em;
+}
