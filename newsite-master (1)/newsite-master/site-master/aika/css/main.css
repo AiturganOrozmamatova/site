@@ -250,28 +250,15 @@ A{
     padding: 20px;
     animation: anim-P 1.6s ease-out;
 }
-@keyframes anim-H3 {
-    from {
-        opacity: 0;
-        transform: translateX(-2000px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
-@keyframes anim-P {
-    from {
-        opacity: 0;
-        transform: translateX(2000px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-.name-t h1{
-    color: #888;
-    margin-left: 40%;
-    font-size: 80px;
+h1{
+    margin-left: 6%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fanwood";
+    font-size: 500%;
 }
