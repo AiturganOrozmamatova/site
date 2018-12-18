@@ -1,0 +1,264 @@
+.navbar{
+    background: rgba(25, 0, 0, 0.5);
+}
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #25383C;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background:#fff !important;
+}
+.bg-dark{
+    background-color:#343a40!important
+}
+.bg-primary{
+    background-color:#343a40!important
+}
+.header{
+    background-image: url('../images/jolie.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 840px;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0);
+}
+.description{
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    padding: 2em;
+}
+.description h3{
+    color:black ;
+    margin-bottom: 80px;
+    font-size: 200%;
+    width: 60%;
+    font-family: "Fanwood";
+    font-palette: dark;
+    font-style: oblique;
+}
+.description p{
+    top: 15px;
+    color:#ffffff;
+    font-size: 20px;
+    width: 60%;
+    line-height: 1.5;
+}
+.description button{
+    border:1px  solid #483D8B;
+    background:#6A5ACD;
+    color:#fff;
+}
+.description h6{
+    color:#FFFAFA ;
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+.about{
+    padding: 1em;
+    position: relative;
+}
+.about h1{
+    color:#F97300;
+    margin: 2em;
+}
+.about img{
+    height: 100%;
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 60%;
+}
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 62%;
+    font-size: 250%;
+}
+.about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+}
+.about .desc h3{
+    color: #4B0082;
+    width: 80%;
+}
+.about .desc p{
+    line-height:2;
+    color:#888;
+}
+.row{
+
+}
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+}
+.portfolio h1{
+    color: #888;
+    margin: 2em;
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+.team{
+    margin: 4em 0;
+    position: relative;
+}
+.team h1{
+    color:  #888;
+    margin: 2em;
+    font-size: 80px;
+}
+.team .item{
+    position: relative;
+}
+.team .des{
+    background: #5F9EA0;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+}
+.team .item:hover .des{
+    height: 100%;
+    background: #5F9EA0;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+.contact-form{
+    margin: 6em 0;
+    position: relative;
+}
+.contact-form h1{
+    padding:2em 1px;
+    color: #4B0082;
+}
+.contact-form .right{
+    max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+    background:  #4B0082;
+    color: #BA55D3;
+    border:0;
+}
+.contact-form .right .form-control::placeholder{
+    color: #BA55D3;
+    font-size: 16px;
+}
+h3{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fanwood";
+}
+.text-pro{
+    margin-left: -20%;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');}
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+.steps{
+    display: inline-block;
+    position: relative;
+}
+.steps .first-step{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    float: left;
+}
+.steps .second-step{
+    position: relative;
+    display: inline-block;
+    width: 30%;}
+.steps .third-step{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    float: right;
+}
+.steps .name{
+    width: 100%;
+    height: 100%;
+    margin-left: 40%;
+    font-family:"Raleway";
+    text-decoration: #10828C;
+    font-size: 350%;
+    color: #10828C;
+}
+.contain{
+    display: inline-block;
+    position: relative;
+}
+.steps .first-step .contain img{
+    margin-left: 35%;
+}
+.steps .second-step .contain img{
+    margin-left: 35%;
+}
+.steps .third-step .contain img{
+    margin-left: 35%;
+}
+.texting {
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-family: "Century Schoolbook L";
+    color: black;
+}
+.contain img{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+A{
+    color: white;
+}
+.carousel-inner h3 {
+    background-color: rgba(20, 49, 68, 0.6);
+    padding: 20px;
+    animation: anim-H3 1.3s ease-out;
+}
+.carousel-inner p {
+    font-size: 18px;
+    background-color: rgba(30, 29, 29, 0.6);
+    padding: 20px;
+    animation: anim-P 1.6s ease-out;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    margin-left: 6%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fanwood";
+    font-size: 500%;
+}
